@@ -1,7 +1,7 @@
-# Tecnología y desarrollo web: Creación de una web app con HTML5 + CSS3 + Javascript
+# Curso: Tecnología y desarrollo web
 
 ## 📦 Sobre el repositorio
-Web app de la página de Counter Strike, en la cual se aplicarán los conceptos impartidos en el curso de Tecnología y desarrollo web.
+Carpeta contenedora del curso tecnología y desarrollo web en la Universidad Nacional de Piura; en la cual se almacenarán todos los proyectos desarrollados en el curso.
 
 ## ✔️ [El respositorio aquí](https://github.com/K3yJey/tecno-desarrollo-web.git)
 
