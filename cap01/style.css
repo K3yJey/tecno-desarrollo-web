@@ -1,0 +1,102 @@
+* {
+  font-family: "Geologica", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-md {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.home,
+.col {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.col {
+  background: grey;
+  color: white;
+  border-left: 1px solid black;
+  margin: 0px 10px;
+}
+
+.main {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.sobre {
+  background: grey;
+  color: white;
+}
+
+.img-sobre {
+  margin: 20px 0px 30px 0px;
+}
+
+.noticias {
+  background: grey;
+  color: white;
+  margin: 20px 0px;
+}
+
+h2 {
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.div-noticias {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.grand-final,
+.anubis-colection,
+.new-era-cs {
+  width: 400px;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.img-grand-final,
+.img-anubis-colection,
+.img-new-era-cs {
+  width: 100%;
+}
+
+#boletin {
+  background: grey;
+  color: white;
+  width: 100%;
+  margin: 0px;
+}
+
+.col {
+  width: 50%;
+}
+
+.col-auto {
+  margin: 10px;
+}

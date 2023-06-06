@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Counter Strike</title>
 
+    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="shortcut icon"
       href="/assets/img/cs-favicon.png"
@@ -18,37 +20,40 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body class="container-md">
-    <header>
-      <a href="#home">
+  <body>
+    <header class="header">
+      <a href="#home" class="home">
         <h1 id="home">Counter Strike</h1>
       </a>
 
-      <nav>
-        <ul>
-          <a href="#sobre">
+      <nav class="container text-center">
+        <ul class="row">
+          <a href="#sobre" class="col">
             <li>Sobre el juego</li>
           </a>
 
-          <a href="#noticias">
+          <a href="#noticias" class="col">
             <li>Noticias</li>
           </a>
 
-          <a href="#versiones">
-            <li>Versiones</li>
-          </a>
-
-          <a href="#boletin">
+          <a href="#boletin" class="col">
             <li>Boletín de noticias</li>
           </a>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section id="sobre">
+    <main class="main">
+      <section id="sobre" class="sobre">
         <article>
           <h2>Sobre el juego</h2>
           <p>
@@ -62,104 +67,72 @@
             alt="Counter Strike 1.6"
             width="300px"
             height="300px"
+            class="img-sobre"
           />
         </article>
       </section>
 
-      <section id="noticias">
-        <h2>Noticias</h2>
-        <article>
-          <h3>La gran Final: GamerLegion VS Team Vitality</h3>
-          <p>
-            El BLAST.tv Paris Major comenzó con 24 equipos y quedan 2 finalistas:
-            GamerLegion y Team Vitality. En la Fase de Campeones, GamerLegion derrotó
-            a Monte por 2-0 y a Heroic por 2-1 en su camino hacia las Grandes
-            Finales. Ante su público, Team Vitality se impuso a Into the Breach y
-            Apeks por 2-0 en días consecutivos. Las Grandes Finales del último Major
-            de CS:GO tendrán lugar mañana, 21 de mayo, desde el Accor Arena de París.
-            ¡Buena suerte a los grandes finalistas!
-          </p>
-          <img
-            src="./assets/img/finalMajor.png"
-            alt="Final Major: GamerLegion VS Team Vitality"
-            width="500px"
-            height="300px"
-          />
-        </article>
+      <section id="noticias" class="noticias">
+        <h2 class="h2-noticias">Noticias</h2>
 
-        <article>
-          <h3>Colección Anubis</h3>
-          <p>
-            Desde noviembre, los jugadores han estado asomando la cabeza en «medio» y
-            rusheando por las aguas de Anubis. Hoy presentamos la Colección Anubis,
-            que incluye 19 acabados de arma inspirados en la incorporación más
-            reciente a la rotación de mapas de servicio activo de Counter-Strike.
-          </p>
-          <img
-            src="./assets/img/coleccionAnubis.png"
-            alt="Colección Anubis"
-            width="500px"
-            height="300px"
-          />
-        </article>
+        <div class="div-noticias">
+          <article class="grand-final">
+            <h3>La gran Final: GamerLegion VS Team Vitality</h3>
+            <p>
+              El BLAST.tv Paris Major comenzó con 24 equipos y quedan 2 finalistas:
+              GamerLegion y Team Vitality. En la Fase de Campeones, GamerLegion
+              derrotó a Monte por 2-0 y a Heroic por 2-1 en su camino hacia las
+              Grandes Finales. Ante su público, Team Vitality se impuso a Into the
+              Breach y Apeks por 2-0 en días consecutivos. Las Grandes Finales del
+              último Major de CS:GO tendrán lugar mañana, 21 de mayo, desde el Accor
+              Arena de París. ¡Buena suerte a los grandes finalistas!
+            </p>
+            <img
+              src="./assets/img/finalMajor.png"
+              alt="Final Major: GamerLegion VS Team Vitality"
+              class="img-grand-final"
+            />
+          </article>
 
-        <article>
-          <h3>La próxima era de Counter-Strike</h3>
-          <p>
-            Counter-Strike 2 es el avance técnico más importante en la historia de
-            esta franquicia y nos permitirá seguir incorporando características y
-            actualizaciones durante muchos años. Este verano, cuando salga
-            oficialmente, desvelaremos todas las nuevas características del juego,
-            pero el camino hacia Counter-Strike 2 empieza hoy con la prueba limitada,
-            disponible para una selección de jugadores de CS:GO. Durante la prueba,
-            evaluaremos un subconjunto de características de CS2 con el fin de
-            resolver posibles problemas antes de su lanzamiento mundial.
-            Counter-Strike 2 llegará este verano como una actualización gratis de
-            CS:GO. Así que elige tu equipamiento, afina tus habilidades ¡y prepárate
-            para lo que está por llegar! Puedes obtener más información sobre las
-            características de la prueba limitada de CS2 aquí:
-            <a href=" https://counter-strike.net/cs2.">Beta de CS2</a>
-          </p>
-          <img
-            src="./assets/img/cs2.png"
-            alt="Colección Anubis"
-            width="500px"
-            height="300px"
-          />
-        </article>
+          <article class="anubis-colection">
+            <h3>Colección Anubis</h3>
+            <p>
+              Desde noviembre, los jugadores han estado asomando la cabeza en «medio»
+              y rusheando por las aguas de Anubis. Hoy presentamos la Colección
+              Anubis, que incluye 19 acabados de arma inspirados en la incorporación
+              más reciente a la rotación de mapas de servicio activo de
+              Counter-Strike.
+            </p>
+            <img
+              src="./assets/img/coleccionAnubis.png"
+              alt="Colección Anubis"
+              class="img-anubis-colection"
+            />
+          </article>
+
+          <article class="new-era-cs">
+            <h3>La próxima era de Counter-Strike</h3>
+            <p>
+              Counter-Strike 2 es el avance técnico más importante en la historia de
+              esta franquicia y nos permitirá seguir incorporando características y
+              actualizaciones durante muchos años. Counter-Strike 2 llegará este
+              verano como una actualización gratis de CS:GO. Así que elige tu
+              equipamiento, afina tus habilidades ¡y prepárate para lo que está por
+              llegar! Puedes obtener más información sobre las características de la
+              prueba limitada de CS2 aquí:
+              <a href=" https://counter-strike.net/cs2.">Beta de CS2</a>
+            </p>
+            <img
+              src="./assets/img/cs2.png"
+              alt="Colección Anubis"
+              class="img-new-era-cs"
+            />
+          </article>
+        </div>
       </section>
-
-      <section id="versiones">
-        <h2>Versiones</h2>
-        <ul>
-          <li>Counter-Strike: Condition Zero</li>
-          <img
-            src="./assets/img/cs-conditionzero.png"
-            alt="Counter-Strike: Condition Zero"
-            width="400px"
-            height="300px"
-          />
-
-          <li>Counter-Strike: Source</li>
-          <img
-            src="./assets/img/cs-source.png"
-            alt="Counter-Strike: Source"
-            width="400px"
-            height="300px"
-          />
-
-          <li>Counter-Strike: Global Offensive</li>
-          <img
-            src="./assets/img/cs-globaloffensive.png"
-            alt="Counter-Strike: Global Offensive"
-            width="400px"
-            height="300px"
-          />
-        </ul>
-      </section>
-      <br />
 
       <form class="row g-3" id="boletin">
+        <h2>Contacto</h2>
         <div class="row">
           <div class="col">
             <input
@@ -180,7 +153,7 @@
         </div>
 
         <div class="col-auto">
-          <button type="submit" class="btn btn-primary">Suscribirse</button>
+          <button type="submit" class="btn btn-light">Suscribirse</button>
         </div>
       </form>
 
